@@ -47,10 +47,23 @@ python-versions = ">=3.7"
 [package.extras]
 widechars = ["wcwidth"]
 
+[[package]]
+name = "websocket-client"
+version = "1.4.2"
+description = "WebSocket client for Python with low level API options"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.extras]
+docs = ["Sphinx (>=3.4)", "sphinx-rtd-theme (>=0.5)"]
+optional = ["python-socks", "wsaccel"]
+test = ["websockets"]
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "fcc085948e7a158e83b1e1dc78d2086287684292ee2a4d803589f964a89bac2d"
+content-hash = "3a6fd51dbf87fcd448bf838a6e24a766f68d714a199a259c6c0ded00d97861a9"
 
 [metadata.files]
 click = [
@@ -72,4 +85,8 @@ raidtoolkit = [
 tabulate = [
     {file = "tabulate-0.9.0-py3-none-any.whl", hash = "sha256:024ca478df22e9340661486f85298cff5f6dcdba14f3813e8830015b9ed1948f"},
     {file = "tabulate-0.9.0.tar.gz", hash = "sha256:0095b12bf5966de529c0feb1fa08671671b3368eec77d7ef7ab114be2c068b3c"},
+]
+websocket-client = [
+    {file = "websocket-client-1.4.2.tar.gz", hash = "sha256:d6e8f90ca8e2dd4e8027c4561adeb9456b54044312dba655e7cae652ceb9ae59"},
+    {file = "websocket_client-1.4.2-py3-none-any.whl", hash = "sha256:d6b06432f184438d99ac1f456eaf22fe1ade524c3dd16e661142dc54e9cba574"},
 ]
