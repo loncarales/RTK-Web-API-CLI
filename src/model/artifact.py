@@ -32,7 +32,7 @@ class ArtifactDto(BaseModel):
     set: str
     type: str
     level: int
-    rank: int
+    rank: str
     rarity: str
     primary_stat: str
     substats: dict[str, str]
@@ -59,16 +59,16 @@ def convert_to_artifacts_dto(artifact_list: Artifacts) -> ArtifactsDto:
     return ArtifactsDto(__root__=[convert_to_artifact_dto(a) for a in artifact_list.__root__])
 
 
-def convert_to_rank(rank: str) -> int:
+def convert_to_rank(rank: str) -> str:
     rank_mapping = {
-        "One": 1,
-        "Two": 2,
-        "Three": 3,
-        "Four": 4,
-        "Five": 5,
-        "Six": 6
+        "One": "*",
+        "Two": "**",
+        "Three": "***",
+        "Four": "****",
+        "Five": "*****",
+        "Six": "******"
     }
-    return rank_mapping.get(rank, 0)
+    return rank_mapping.get(rank, "")
 
 
 def convert_to_primary_stat(primary_bonus: ArtifactBonus) -> str:
