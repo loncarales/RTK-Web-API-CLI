@@ -1,5 +1,14 @@
 [
   {
+    "key": "None",
+    "ordinal": -1,
+    "label": "",
+    "setSize": 0,
+    "bonuses": [
+    ],
+    "description": "This is a dummy set for Rings, Amulets and Banners"
+  },
+  {
     "key": "Hp",
     "ordinal": 0,
     "label": "Life",
@@ -202,7 +211,7 @@
   {
     "key": "DecreaseMaxHp",
     "ordinal": 19,
-    "label": "Savage",
+    "label": "Destroy",
     "setSize": 4,
     "bonuses": [],
     "description": "Destroys enemy MAX HP by 40% of damage dealt"

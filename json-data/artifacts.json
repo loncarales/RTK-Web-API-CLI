@@ -1,28 +1,5 @@
 [
     {
-        "id": 1,
-        "kindId": "Weapon",
-        "setKindId": "Hp",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 633,
-        "price": 5700,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Attack",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 33
-    },
-    {
         "id": 2,
         "kindId": "Helmet",
         "setKindId": "Hp",
@@ -505,37 +482,6 @@
         "revision": 192
     },
     {
-        "id": 15,
-        "kindId": "Helmet",
-        "setKindId": "Hp",
-        "rank": "One",
-        "rarity": "Uncommon",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 625,
-        "price": 5625,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Health",
-            "absolute": true,
-            "value": 60.0
-        },
-        "secondaryBonuses": [
-            {
-                "glyphPower": 0.0,
-                "level": 0,
-                "kind": "Health",
-                "absolute": false,
-                "value": 0.02
-            }
-        ],
-        "revision": 90
-    },
-    {
         "id": 17,
         "kindId": "Gloves",
         "setKindId": "Hp",
@@ -959,29 +905,6 @@
         "revision": 135
     },
     {
-        "id": 28,
-        "kindId": "Gloves",
-        "setKindId": "Defense",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 680,
-        "price": 6120,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Attack",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 136
-    },
-    {
         "id": 29,
         "kindId": "Chest",
         "setKindId": "Defense",
@@ -1005,106 +928,6 @@
         "revision": 138
     },
     {
-        "id": 30,
-        "kindId": "Boots",
-        "setKindId": "Defense",
-        "rank": "One",
-        "rarity": "Uncommon",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 900,
-        "price": 8100,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Health",
-            "absolute": false,
-            "value": 0.01
-        },
-        "secondaryBonuses": [
-            {
-                "glyphPower": 0.0,
-                "level": 0,
-                "kind": "Speed",
-                "absolute": true,
-                "value": 1.0
-            }
-        ],
-        "revision": 139
-    },
-    {
-        "id": 31,
-        "kindId": "Gloves",
-        "setKindId": "Defense",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 680,
-        "price": 6120,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 137
-    },
-    {
-        "id": 32,
-        "kindId": "Boots",
-        "setKindId": "Hp",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 600,
-        "price": 5400,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Attack",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 134
-    },
-    {
-        "id": 33,
-        "kindId": "Weapon",
-        "setKindId": "Hp",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 633,
-        "price": 5700,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Attack",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 128
-    },
-    {
         "id": 35,
         "kindId": "Shield",
         "setKindId": "Hp",
@@ -1126,52 +949,6 @@
         },
         "secondaryBonuses": [],
         "revision": 130
-    },
-    {
-        "id": 39,
-        "kindId": "Gloves",
-        "setKindId": "AttackPower",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 567,
-        "price": 5100,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 159
-    },
-    {
-        "id": 40,
-        "kindId": "Gloves",
-        "setKindId": "AttackPower",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 567,
-        "price": 5100,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": false,
-            "value": 0.01
-        },
-        "secondaryBonuses": [],
-        "revision": 158
     },
     {
         "id": 41,
@@ -1210,52 +987,6 @@
             }
         ],
         "revision": 176
-    },
-    {
-        "id": 42,
-        "kindId": "Weapon",
-        "setKindId": "AttackPower",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 633,
-        "price": 5700,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Attack",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 237
-    },
-    {
-        "id": 43,
-        "kindId": "Helmet",
-        "setKindId": "AttackPower",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 500,
-        "price": 4500,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Health",
-            "absolute": true,
-            "value": 60.0
-        },
-        "secondaryBonuses": [],
-        "revision": 477
     },
     {
         "id": 44,
@@ -1342,52 +1073,6 @@
         "revision": 405
     },
     {
-        "id": 47,
-        "kindId": "Weapon",
-        "setKindId": "AttackPower",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 633,
-        "price": 5700,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Attack",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 238
-    },
-    {
-        "id": 48,
-        "kindId": "Helmet",
-        "setKindId": "AttackPower",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 500,
-        "price": 4500,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Health",
-            "absolute": true,
-            "value": 60.0
-        },
-        "secondaryBonuses": [],
-        "revision": 240
-    },
-    {
         "id": 49,
         "kindId": "Shield",
         "setKindId": "AttackPower",
@@ -1409,29 +1094,6 @@
         },
         "secondaryBonuses": [],
         "revision": 241
-    },
-    {
-        "id": 50,
-        "kindId": "Gloves",
-        "setKindId": "AttackPower",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 567,
-        "price": 5100,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": false,
-            "value": 0.01
-        },
-        "secondaryBonuses": [],
-        "revision": 243
     },
     {
         "id": 51,
@@ -1526,52 +1188,6 @@
         "revision": 435
     },
     {
-        "id": 55,
-        "kindId": "Gloves",
-        "setKindId": "CriticalChance",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 680,
-        "price": 6120,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Attack",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 333
-    },
-    {
-        "id": 56,
-        "kindId": "Shield",
-        "setKindId": "CriticalChance",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 800,
-        "price": 7200,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 438
-    },
-    {
         "id": 57,
         "kindId": "Shield",
         "setKindId": "CriticalChance",
@@ -1593,60 +1209,6 @@
         },
         "secondaryBonuses": [],
         "revision": 436
-    },
-    {
-        "id": 58,
-        "kindId": "Shield",
-        "setKindId": "CriticalChance",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 800,
-        "price": 7200,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 439
-    },
-    {
-        "id": 59,
-        "kindId": "Shield",
-        "setKindId": "CriticalChance",
-        "rank": "One",
-        "rarity": "Uncommon",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 1000,
-        "price": 9000,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [
-            {
-                "glyphPower": 0.0,
-                "level": 0,
-                "kind": "Accuracy",
-                "absolute": true,
-                "value": 3.0
-            }
-        ],
-        "revision": 437
     },
     {
         "id": 60,
@@ -1770,83 +1332,6 @@
         "revision": 440
     },
     {
-        "id": 63,
-        "kindId": "Weapon",
-        "setKindId": "Accuracy",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 760,
-        "price": 6840,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Attack",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 442
-    },
-    {
-        "id": 64,
-        "kindId": "Gloves",
-        "setKindId": "Accuracy",
-        "rank": "One",
-        "rarity": "Uncommon",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 850,
-        "price": 7650,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": false,
-            "value": 0.01
-        },
-        "secondaryBonuses": [
-            {
-                "glyphPower": 0.0,
-                "level": 0,
-                "kind": "Resistance",
-                "absolute": true,
-                "value": 4.0
-            }
-        ],
-        "revision": 334
-    },
-    {
-        "id": 65,
-        "kindId": "Shield",
-        "setKindId": "Accuracy",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 800,
-        "price": 7200,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 444
-    },
-    {
         "id": 66,
         "kindId": "Shield",
         "setKindId": "Accuracy",
@@ -1868,52 +1353,6 @@
         },
         "secondaryBonuses": [],
         "revision": 443
-    },
-    {
-        "id": 67,
-        "kindId": "Boots",
-        "setKindId": "Defense",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 720,
-        "price": 6480,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Health",
-            "absolute": true,
-            "value": 60.0
-        },
-        "secondaryBonuses": [],
-        "revision": 427
-    },
-    {
-        "id": 68,
-        "kindId": "Boots",
-        "setKindId": "Defense",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 720,
-        "price": 6480,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Speed",
-            "absolute": true,
-            "value": 1.0
-        },
-        "secondaryBonuses": [],
-        "revision": 434
     },
     {
         "id": 69,
@@ -1962,106 +1401,6 @@
         "revision": 394
     },
     {
-        "id": 71,
-        "kindId": "Boots",
-        "setKindId": "Defense",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 720,
-        "price": 6480,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": false,
-            "value": 0.01
-        },
-        "secondaryBonuses": [],
-        "revision": 431
-    },
-    {
-        "id": 72,
-        "kindId": "Boots",
-        "setKindId": "Defense",
-        "rank": "One",
-        "rarity": "Uncommon",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 900,
-        "price": 8100,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Attack",
-            "absolute": false,
-            "value": 0.01
-        },
-        "secondaryBonuses": [
-            {
-                "glyphPower": 0.0,
-                "level": 0,
-                "kind": "Resistance",
-                "absolute": true,
-                "value": 3.0
-            }
-        ],
-        "revision": 426
-    },
-    {
-        "id": 73,
-        "kindId": "Boots",
-        "setKindId": "Defense",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 720,
-        "price": 6480,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 432
-    },
-    {
-        "id": 74,
-        "kindId": "Boots",
-        "setKindId": "Defense",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 720,
-        "price": 6480,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Attack",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 430
-    },
-    {
         "id": 75,
         "kindId": "Boots",
         "setKindId": "Defense",
@@ -2085,29 +1424,6 @@
         "revision": 318
     },
     {
-        "id": 76,
-        "kindId": "Boots",
-        "setKindId": "Defense",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 720,
-        "price": 6480,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Attack",
-            "absolute": false,
-            "value": 0.01
-        },
-        "secondaryBonuses": [],
-        "revision": 429
-    },
-    {
         "id": 77,
         "kindId": "Boots",
         "setKindId": "Defense",
@@ -2129,37 +1445,6 @@
         },
         "secondaryBonuses": [],
         "revision": 317
-    },
-    {
-        "id": 78,
-        "kindId": "Boots",
-        "setKindId": "Defense",
-        "rank": "One",
-        "rarity": "Uncommon",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 900,
-        "price": 8100,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Health",
-            "absolute": false,
-            "value": 0.01
-        },
-        "secondaryBonuses": [
-            {
-                "glyphPower": 0.0,
-                "level": 0,
-                "kind": "Accuracy",
-                "absolute": true,
-                "value": 3.0
-            }
-        ],
-        "revision": 397
     },
     {
         "id": 79,
@@ -2206,52 +1491,6 @@
         },
         "secondaryBonuses": [],
         "revision": 396
-    },
-    {
-        "id": 81,
-        "kindId": "Boots",
-        "setKindId": "Defense",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 720,
-        "price": 6480,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 433
-    },
-    {
-        "id": 82,
-        "kindId": "Boots",
-        "setKindId": "Defense",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 720,
-        "price": 6480,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Health",
-            "absolute": true,
-            "value": 60.0
-        },
-        "secondaryBonuses": [],
-        "revision": 428
     },
     {
         "id": 83,
@@ -2360,75 +1599,6 @@
         "revision": 419
     },
     {
-        "id": 86,
-        "kindId": "Gloves",
-        "setKindId": "AttackPower",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 567,
-        "price": 5100,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "CriticalChance",
-            "absolute": false,
-            "value": 0.01
-        },
-        "secondaryBonuses": [],
-        "revision": 316
-    },
-    {
-        "id": 87,
-        "kindId": "Gloves",
-        "setKindId": "AttackPower",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 567,
-        "price": 5100,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": false,
-            "value": 0.01
-        },
-        "secondaryBonuses": [],
-        "revision": 315
-    },
-    {
-        "id": 88,
-        "kindId": "Gloves",
-        "setKindId": "AttackPower",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 567,
-        "price": 5100,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Attack",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 314
-    },
-    {
         "id": 89,
         "kindId": "Gloves",
         "setKindId": "AttackPower",
@@ -2452,82 +1622,6 @@
         "revision": 594
     },
     {
-        "id": 90,
-        "kindId": "Boots",
-        "setKindId": "CriticalChance",
-        "rank": "One",
-        "rarity": "Rare",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 1080,
-        "price": 9720,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Attack",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [
-            {
-                "glyphPower": 0.0,
-                "level": 0,
-                "kind": "CriticalDamage",
-                "absolute": false,
-                "value": 0.01
-            },
-            {
-                "glyphPower": 0.0,
-                "level": 0,
-                "kind": "Resistance",
-                "absolute": true,
-                "value": 2.0
-            }
-        ],
-        "revision": 441
-    },
-    {
-        "id": 91,
-        "kindId": "Boots",
-        "setKindId": "BlockHealChance",
-        "rank": "One",
-        "rarity": "Rare",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 2700,
-        "price": 24300,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [
-            {
-                "glyphPower": 0.0,
-                "level": 0,
-                "kind": "Attack",
-                "absolute": true,
-                "value": 3.0
-            },
-            {
-                "glyphPower": 0.0,
-                "level": 0,
-                "kind": "Resistance",
-                "absolute": true,
-                "value": 3.0
-            }
-        ],
-        "revision": 445
-    },
-    {
         "id": 92,
         "kindId": "Chest",
         "setKindId": "Accuracy",
@@ -2549,29 +1643,6 @@
         },
         "secondaryBonuses": [],
         "revision": 466
-    },
-    {
-        "id": 93,
-        "kindId": "Boots",
-        "setKindId": "Accuracy",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 720,
-        "price": 6480,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 467
     },
     {
         "id": 94,
@@ -2725,29 +1796,6 @@
         "revision": 480
     },
     {
-        "id": 98,
-        "kindId": "Weapon",
-        "setKindId": "Resistance",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 950,
-        "price": 8550,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Attack",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 481
-    },
-    {
         "id": 99,
         "kindId": "Helmet",
         "setKindId": "Resistance",
@@ -2769,29 +1817,6 @@
         },
         "secondaryBonuses": [],
         "revision": 482
-    },
-    {
-        "id": 100,
-        "kindId": "Shield",
-        "setKindId": "Resistance",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": true,
-        "activated": false,
-        "sellPrice": 1000,
-        "price": 9000,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 483
     },
     {
         "id": 101,
@@ -2817,75 +1842,6 @@
         "revision": 484
     },
     {
-        "id": 102,
-        "kindId": "Shield",
-        "setKindId": "LifeDrain",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 1000,
-        "price": 9000,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 495
-    },
-    {
-        "id": 103,
-        "kindId": "Shield",
-        "setKindId": "LifeDrain",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 1000,
-        "price": 9000,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 496
-    },
-    {
-        "id": 104,
-        "kindId": "Shield",
-        "setKindId": "LifeDrain",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 1000,
-        "price": 9000,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 497
-    },
-    {
         "id": 105,
         "kindId": "Shield",
         "setKindId": "LifeDrain",
@@ -2893,7 +1849,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 1800,
         "price": 18000,
@@ -2906,7 +1862,7 @@
             "value": 8.0
         },
         "secondaryBonuses": [],
-        "revision": 498
+        "revision": 853
     },
     {
         "id": 106,
@@ -2916,7 +1872,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 1800,
         "price": 18000,
@@ -2929,7 +1885,7 @@
             "value": 8.0
         },
         "secondaryBonuses": [],
-        "revision": 499
+        "revision": 854
     },
     {
         "id": 107,
@@ -2939,7 +1895,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 1800,
         "price": 18000,
@@ -2952,7 +1908,7 @@
             "value": 8.0
         },
         "secondaryBonuses": [],
-        "revision": 500
+        "revision": 855
     },
     {
         "id": 108,
@@ -2962,7 +1918,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 1800,
         "price": 18000,
@@ -2975,99 +1931,7 @@
             "value": 8.0
         },
         "secondaryBonuses": [],
-        "revision": 501
-    },
-    {
-        "id": 109,
-        "kindId": "Shield",
-        "setKindId": "LifeDrain",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 1000,
-        "price": 9000,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 502
-    },
-    {
-        "id": 110,
-        "kindId": "Shield",
-        "setKindId": "LifeDrain",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 1000,
-        "price": 9000,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 503
-    },
-    {
-        "id": 111,
-        "kindId": "Shield",
-        "setKindId": "LifeDrain",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 1000,
-        "price": 9000,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 504
-    },
-    {
-        "id": 112,
-        "kindId": "Shield",
-        "setKindId": "LifeDrain",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 1000,
-        "price": 9000,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 505
+        "revision": 856
     },
     {
         "id": 113,
@@ -3077,7 +1941,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 1800,
         "price": 18000,
@@ -3090,30 +1954,7 @@
             "value": 8.0
         },
         "secondaryBonuses": [],
-        "revision": 506
-    },
-    {
-        "id": 114,
-        "kindId": "Shield",
-        "setKindId": "LifeDrain",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 1000,
-        "price": 9000,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 507
+        "revision": 857
     },
     {
         "id": 115,
@@ -3123,7 +1964,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 1800,
         "price": 18000,
@@ -3136,30 +1977,7 @@
             "value": 8.0
         },
         "secondaryBonuses": [],
-        "revision": 508
-    },
-    {
-        "id": 116,
-        "kindId": "Shield",
-        "setKindId": "LifeDrain",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 1000,
-        "price": 9000,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 509
+        "revision": 858
     },
     {
         "id": 117,
@@ -3169,7 +1987,7 @@
         "rarity": "Uncommon",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 2250,
         "price": 22500,
@@ -3190,7 +2008,7 @@
                 "value": 0.02
             }
         ],
-        "revision": 510
+        "revision": 852
     },
     {
         "id": 118,
@@ -3200,7 +2018,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 1800,
         "price": 18000,
@@ -3213,7 +2031,7 @@
             "value": 8.0
         },
         "secondaryBonuses": [],
-        "revision": 511
+        "revision": 859
     },
     {
         "id": 119,
@@ -3223,7 +2041,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 1440,
         "price": 14400,
@@ -3236,7 +2054,7 @@
             "value": 8.0
         },
         "secondaryBonuses": [],
-        "revision": 524
+        "revision": 869
     },
     {
         "id": 120,
@@ -3246,7 +2064,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 1350,
         "price": 13500,
@@ -3259,7 +2077,7 @@
             "value": 120.0
         },
         "secondaryBonuses": [],
-        "revision": 525
+        "revision": 851
     },
     {
         "id": 121,
@@ -3339,44 +2157,6 @@
         "revision": 597
     },
     {
-        "id": 124,
-        "kindId": "Chest",
-        "setKindId": "FreezeRateOnDamageReceived",
-        "rank": "One",
-        "rarity": "Rare",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 2400,
-        "price": 21600,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [
-            {
-                "glyphPower": 0.0,
-                "level": 0,
-                "kind": "Defense",
-                "absolute": false,
-                "value": 0.01
-            },
-            {
-                "glyphPower": 0.0,
-                "level": 0,
-                "kind": "Health",
-                "absolute": false,
-                "value": 0.01
-            }
-        ],
-        "revision": 568
-    },
-    {
         "id": 125,
         "kindId": "Chest",
         "setKindId": "FreezeRateOnDamageReceived",
@@ -3384,7 +2164,7 @@
         "rarity": "Rare",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 8308,
         "price": 108000,
@@ -3412,7 +2192,7 @@
                 "value": 0.03
             }
         ],
-        "revision": 569
+        "revision": 870
     },
     {
         "id": 126,
@@ -3422,7 +2202,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 1080,
         "price": 10800,
@@ -3435,7 +2215,7 @@
             "value": 120.0
         },
         "secondaryBonuses": [],
-        "revision": 570
+        "revision": 755
     },
     {
         "id": 127,
@@ -3461,60 +2241,6 @@
         "revision": 599
     },
     {
-        "id": 128,
-        "kindId": "Boots",
-        "setKindId": "AttackPower",
-        "rank": "One",
-        "rarity": "Uncommon",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 750,
-        "price": 6750,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Speed",
-            "absolute": true,
-            "value": 1.0
-        },
-        "secondaryBonuses": [
-            {
-                "glyphPower": 0.0,
-                "level": 0,
-                "kind": "Defense",
-                "absolute": true,
-                "value": 5.0
-            }
-        ],
-        "revision": 572
-    },
-    {
-        "id": 129,
-        "kindId": "Boots",
-        "setKindId": "AttackPower",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 600,
-        "price": 5400,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Health",
-            "absolute": true,
-            "value": 60.0
-        },
-        "secondaryBonuses": [],
-        "revision": 573
-    },
-    {
         "id": 130,
         "kindId": "Boots",
         "setKindId": "AttackPower",
@@ -3522,7 +2248,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 1080,
         "price": 10800,
@@ -3535,30 +2261,7 @@
             "value": 0.02
         },
         "secondaryBonuses": [],
-        "revision": 574
-    },
-    {
-        "id": 131,
-        "kindId": "Boots",
-        "setKindId": "AttackPower",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 600,
-        "price": 5400,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Attack",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 575
+        "revision": 752
     },
     {
         "id": 132,
@@ -3591,7 +2294,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 1080,
         "price": 10800,
@@ -3604,7 +2307,7 @@
             "value": 120.0
         },
         "secondaryBonuses": [],
-        "revision": 577
+        "revision": 756
     },
     {
         "id": 134,
@@ -3614,7 +2317,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 1080,
         "price": 10800,
@@ -3627,61 +2330,7 @@
             "value": 0.02
         },
         "secondaryBonuses": [],
-        "revision": 578
-    },
-    {
-        "id": 135,
-        "kindId": "Boots",
-        "setKindId": "AttackPower",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 600,
-        "price": 5400,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Health",
-            "absolute": true,
-            "value": 60.0
-        },
-        "secondaryBonuses": [],
-        "revision": 579
-    },
-    {
-        "id": 136,
-        "kindId": "Boots",
-        "setKindId": "AttackPower",
-        "rank": "One",
-        "rarity": "Uncommon",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 750,
-        "price": 6750,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": false,
-            "value": 0.01
-        },
-        "secondaryBonuses": [
-            {
-                "glyphPower": 0.0,
-                "level": 0,
-                "kind": "Attack",
-                "absolute": true,
-                "value": 3.0
-            }
-        ],
-        "revision": 580
+        "revision": 753
     },
     {
         "id": 137,
@@ -3722,7 +2371,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 1080,
         "price": 10800,
@@ -3735,7 +2384,7 @@
             "value": 8.0
         },
         "secondaryBonuses": [],
-        "revision": 582
+        "revision": 757
     },
     {
         "id": 139,
@@ -3776,7 +2425,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 1080,
         "price": 10800,
@@ -3789,7 +2438,7 @@
             "value": 2.0
         },
         "secondaryBonuses": [],
-        "revision": 584
+        "revision": 759
     },
     {
         "id": 141,
@@ -3799,7 +2448,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 1080,
         "price": 10800,
@@ -3812,7 +2461,7 @@
             "value": 0.02
         },
         "secondaryBonuses": [],
-        "revision": 585
+        "revision": 758
     },
     {
         "id": 142,
@@ -3822,7 +2471,7 @@
         "rarity": "Uncommon",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 1350,
         "price": 13500,
@@ -3843,7 +2492,7 @@
                 "value": 0.01
             }
         ],
-        "revision": 586
+        "revision": 797
     },
     {
         "id": 143,
@@ -3853,7 +2502,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 1080,
         "price": 10800,
@@ -3866,7 +2515,7 @@
             "value": 0.02
         },
         "secondaryBonuses": [],
-        "revision": 587
+        "revision": 754
     },
     {
         "id": 144,
@@ -3892,83 +2541,6 @@
         "revision": 598
     },
     {
-        "id": 145,
-        "kindId": "Boots",
-        "setKindId": "AttackPower",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 600,
-        "price": 5400,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Health",
-            "absolute": false,
-            "value": 0.01
-        },
-        "secondaryBonuses": [],
-        "revision": 589
-    },
-    {
-        "id": 146,
-        "kindId": "Boots",
-        "setKindId": "AttackPower",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 600,
-        "price": 5400,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Attack",
-            "absolute": false,
-            "value": 0.01
-        },
-        "secondaryBonuses": [],
-        "revision": 590
-    },
-    {
-        "id": 147,
-        "kindId": "Weapon",
-        "setKindId": "DecreaseMaxHp",
-        "rank": "One",
-        "rarity": "Uncommon",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 1504,
-        "price": 13538,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Attack",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [
-            {
-                "glyphPower": 0.0,
-                "level": 0,
-                "kind": "Accuracy",
-                "absolute": true,
-                "value": 4.0
-            }
-        ],
-        "revision": 632
-    },
-    {
         "id": 148,
         "kindId": "Gloves",
         "setKindId": "DecreaseMaxHp",
@@ -3976,7 +2548,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 1938,
         "price": 19380,
@@ -3989,76 +2561,7 @@
             "value": 0.02
         },
         "secondaryBonuses": [],
-        "revision": 633
-    },
-    {
-        "id": 149,
-        "kindId": "Boots",
-        "setKindId": "DecreaseMaxHp",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 1140,
-        "price": 10260,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Health",
-            "absolute": false,
-            "value": 0.01
-        },
-        "secondaryBonuses": [],
-        "revision": 634
-    },
-    {
-        "id": 150,
-        "kindId": "Boots",
-        "setKindId": "DecreaseMaxHp",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 1140,
-        "price": 10260,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Attack",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 635
-    },
-    {
-        "id": 151,
-        "kindId": "Boots",
-        "setKindId": "DecreaseMaxHp",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 1140,
-        "price": 10260,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Health",
-            "absolute": true,
-            "value": 60.0
-        },
-        "secondaryBonuses": [],
-        "revision": 636
+        "revision": 833
     },
     {
         "id": 152,
@@ -4068,7 +2571,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 2052,
         "price": 20520,
@@ -4081,153 +2584,7 @@
             "value": 120.0
         },
         "secondaryBonuses": [],
-        "revision": 637
-    },
-    {
-        "id": 153,
-        "kindId": "Boots",
-        "setKindId": "DecreaseMaxHp",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 1140,
-        "price": 10260,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Health",
-            "absolute": false,
-            "value": 0.01
-        },
-        "secondaryBonuses": [],
-        "revision": 638
-    },
-    {
-        "id": 154,
-        "kindId": "Boots",
-        "setKindId": "DecreaseMaxHp",
-        "rank": "One",
-        "rarity": "Uncommon",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 1425,
-        "price": 12825,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": false,
-            "value": 0.01
-        },
-        "secondaryBonuses": [
-            {
-                "glyphPower": 0.0,
-                "level": 0,
-                "kind": "Defense",
-                "absolute": true,
-                "value": 6.0
-            }
-        ],
-        "revision": 639
-    },
-    {
-        "id": 155,
-        "kindId": "Boots",
-        "setKindId": "DecreaseMaxHp",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 1140,
-        "price": 10260,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": false,
-            "value": 0.01
-        },
-        "secondaryBonuses": [],
-        "revision": 640
-    },
-    {
-        "id": 156,
-        "kindId": "Boots",
-        "setKindId": "DecreaseMaxHp",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 1140,
-        "price": 10260,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Defense",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 641
-    },
-    {
-        "id": 157,
-        "kindId": "Boots",
-        "setKindId": "DecreaseMaxHp",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 1140,
-        "price": 10260,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Speed",
-            "absolute": true,
-            "value": 1.0
-        },
-        "secondaryBonuses": [],
-        "revision": 642
-    },
-    {
-        "id": 158,
-        "kindId": "Boots",
-        "setKindId": "DecreaseMaxHp",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 1140,
-        "price": 10260,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Attack",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 643
+        "revision": 897
     },
     {
         "id": 159,
@@ -4237,7 +2594,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 2052,
         "price": 20520,
@@ -4250,7 +2607,7 @@
             "value": 8.0
         },
         "secondaryBonuses": [],
-        "revision": 644
+        "revision": 898
     },
     {
         "id": 160,
@@ -4260,7 +2617,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 2052,
         "price": 20520,
@@ -4273,30 +2630,7 @@
             "value": 8.0
         },
         "secondaryBonuses": [],
-        "revision": 645
-    },
-    {
-        "id": 161,
-        "kindId": "Boots",
-        "setKindId": "DecreaseMaxHp",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 1140,
-        "price": 10260,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Attack",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 646
+        "revision": 900
     },
     {
         "id": 162,
@@ -4306,7 +2640,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 2052,
         "price": 20520,
@@ -4319,7 +2653,7 @@
             "value": 8.0
         },
         "secondaryBonuses": [],
-        "revision": 647
+        "revision": 899
     },
     {
         "id": 163,
@@ -4329,7 +2663,7 @@
         "rarity": "Uncommon",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 2565,
         "price": 25650,
@@ -4350,7 +2684,7 @@
                 "value": 6.0
             }
         ],
-        "revision": 648
+        "revision": 750
     },
     {
         "id": 164,
@@ -4360,7 +2694,7 @@
         "rarity": "Epic",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 21375,
         "price": 342000,
@@ -4395,7 +2729,7 @@
                 "value": 4.0
             }
         ],
-        "revision": 725
+        "revision": 955
     },
     {
         "id": 165,
@@ -4405,7 +2739,7 @@
         "rarity": "Epic",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 22500,
         "price": 360000,
@@ -4440,30 +2774,7 @@
                 "value": 8.0
             }
         ],
-        "revision": 726
-    },
-    {
-        "id": 166,
-        "kindId": "Weapon",
-        "setKindId": "DecreaseMaxHp",
-        "rank": "One",
-        "rarity": "Common",
-        "level": 0,
-        "faction": "Unknown",
-        "seen": false,
-        "activated": false,
-        "sellPrice": 1203,
-        "price": 10830,
-        "failedUpgrades": 0,
-        "primaryBonus": {
-            "glyphPower": 0.0,
-            "level": 0,
-            "kind": "Attack",
-            "absolute": true,
-            "value": 4.0
-        },
-        "secondaryBonuses": [],
-        "revision": 727
+        "revision": 956
     },
     {
         "id": 167,
@@ -4473,7 +2784,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 1710,
         "price": 17100,
@@ -4486,7 +2797,7 @@
             "value": 120.0
         },
         "secondaryBonuses": [],
-        "revision": 728
+        "revision": 938
     },
     {
         "id": 168,
@@ -4496,7 +2807,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 4385,
         "price": 57000,
@@ -4509,7 +2820,7 @@
             "value": 12.0
         },
         "secondaryBonuses": [],
-        "revision": 729
+        "revision": 943
     },
     {
         "id": 169,
@@ -4519,7 +2830,7 @@
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
-        "seen": false,
+        "seen": true,
         "activated": false,
         "sellPrice": 3508,
         "price": 45600,
@@ -4532,29 +2843,1051 @@
             "value": 5.0
         },
         "secondaryBonuses": [],
-        "revision": 730
+        "revision": 954
     },
     {
-        "id": 170,
-        "kindId": "Boots",
+        "id": 171,
+        "kindId": "Helmet",
+        "setKindId": "Counterattack",
+        "rank": "Three",
+        "rarity": "Uncommon",
+        "level": 0,
+        "faction": "Unknown",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 4111,
+        "price": 53438,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Health",
+            "absolute": true,
+            "value": 170.0
+        },
+        "secondaryBonuses": [
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "CriticalDamage",
+                "absolute": false,
+                "value": 0.04
+            }
+        ],
+        "revision": 936
+    },
+    {
+        "id": 173,
+        "kindId": "Helmet",
         "setKindId": "Counterattack",
         "rank": "Two",
         "rarity": "Common",
         "level": 0,
         "faction": "Unknown",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 1710,
+        "price": 17100,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Health",
+            "absolute": true,
+            "value": 120.0
+        },
+        "secondaryBonuses": [],
+        "revision": 939
+    },
+    {
+        "id": 178,
+        "kindId": "Helmet",
+        "setKindId": "Counterattack",
+        "rank": "Three",
+        "rarity": "Common",
+        "level": 0,
+        "faction": "Unknown",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 3288,
+        "price": 42750,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Health",
+            "absolute": true,
+            "value": 170.0
+        },
+        "secondaryBonuses": [],
+        "revision": 937
+    },
+    {
+        "id": 182,
+        "kindId": "Helmet",
+        "setKindId": "Resistance",
+        "rank": "Two",
+        "rarity": "Rare",
+        "level": 0,
+        "faction": "Unknown",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 2025,
+        "price": 20250,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Health",
+            "absolute": true,
+            "value": 120.0
+        },
+        "secondaryBonuses": [
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "CriticalDamage",
+                "absolute": false,
+                "value": 0.01
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Speed",
+                "absolute": true,
+                "value": 2.0
+            }
+        ],
+        "revision": 796
+    },
+    {
+        "id": 185,
+        "kindId": "Shield",
+        "setKindId": "AttackSpeed",
+        "rank": "Two",
+        "rarity": "Common",
+        "level": 0,
+        "faction": "Unknown",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 1800,
+        "price": 18000,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Defense",
+            "absolute": true,
+            "value": 8.0
+        },
+        "secondaryBonuses": [],
+        "revision": 802
+    },
+    {
+        "id": 189,
+        "kindId": "Gloves",
+        "setKindId": "AttackSpeed",
+        "rank": "Five",
+        "rarity": "Rare",
+        "level": 0,
+        "faction": "Unknown",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 15938,
+        "price": 286875,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Defense",
+            "absolute": true,
+            "value": 25.0
+        },
+        "secondaryBonuses": [
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "CriticalDamage",
+                "absolute": false,
+                "value": 0.05
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Attack",
+                "absolute": true,
+                "value": 12.0
+            }
+        ],
+        "revision": 803
+    },
+    {
+        "id": 190,
+        "kindId": "Boots",
+        "setKindId": "AttackSpeed",
+        "rank": "Five",
+        "rarity": "Rare",
+        "level": 0,
+        "faction": "Unknown",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 16875,
+        "price": 303750,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Health",
+            "absolute": true,
+            "value": 450.0
+        },
+        "secondaryBonuses": [
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "CriticalDamage",
+                "absolute": false,
+                "value": 0.05
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Accuracy",
+                "absolute": true,
+                "value": 9.0
+            }
+        ],
+        "revision": 806
+    },
+    {
+        "id": 191,
+        "kindId": "Weapon",
+        "setKindId": "AttackSpeed",
+        "rank": "Five",
+        "rarity": "Rare",
+        "level": 12,
+        "faction": "Unknown",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 17813,
+        "price": 320625,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Attack",
+            "absolute": true,
+            "value": 143.0
+        },
+        "secondaryBonuses": [
+            {
+                "glyphPower": 0.0,
+                "level": 2,
+                "kind": "Accuracy",
+                "absolute": true,
+                "value": 30.0
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "CriticalDamage",
+                "absolute": false,
+                "value": 0.06
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "CriticalChance",
+                "absolute": false,
+                "value": 0.04
+            }
+        ],
+        "revision": 916
+    },
+    {
+        "id": 192,
+        "kindId": "Shield",
+        "setKindId": "AttackSpeed",
+        "rank": "Five",
+        "rarity": "Rare",
+        "level": 12,
+        "faction": "Unknown",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 18750,
+        "price": 337500,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Defense",
+            "absolute": true,
+            "value": 143.0
+        },
+        "secondaryBonuses": [
+            {
+                "glyphPower": 0.0,
+                "level": 1,
+                "kind": "Defense",
+                "absolute": false,
+                "value": 0.09
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 1,
+                "kind": "CriticalDamage",
+                "absolute": false,
+                "value": 0.12
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Health",
+                "absolute": false,
+                "value": 0.04
+            }
+        ],
+        "revision": 957
+    },
+    {
+        "id": 193,
+        "kindId": "Shield",
+        "setKindId": "Counterattack",
+        "rank": "Two",
+        "rarity": "Common",
+        "level": 0,
+        "faction": "Unknown",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 2280,
+        "price": 22800,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Defense",
+            "absolute": true,
+            "value": 8.0
+        },
+        "secondaryBonuses": [],
+        "revision": 948
+    },
+    {
+        "id": 194,
+        "kindId": "Shield",
+        "setKindId": "Counterattack",
+        "rank": "Two",
+        "rarity": "Common",
+        "level": 0,
+        "faction": "Unknown",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 2280,
+        "price": 22800,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Defense",
+            "absolute": true,
+            "value": 8.0
+        },
+        "secondaryBonuses": [],
+        "revision": 949
+    },
+    {
+        "id": 196,
+        "kindId": "Shield",
+        "setKindId": "Counterattack",
+        "rank": "Two",
+        "rarity": "Uncommon",
+        "level": 0,
+        "faction": "Unknown",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 2850,
+        "price": 28500,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Defense",
+            "absolute": true,
+            "value": 8.0
+        },
+        "secondaryBonuses": [
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Speed",
+                "absolute": true,
+                "value": 2.0
+            }
+        ],
+        "revision": 947
+    },
+    {
+        "id": 198,
+        "kindId": "Shield",
+        "setKindId": "Counterattack",
+        "rank": "Three",
+        "rarity": "Common",
+        "level": 0,
+        "faction": "Unknown",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 4385,
+        "price": 57000,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Defense",
+            "absolute": true,
+            "value": 12.0
+        },
+        "secondaryBonuses": [],
+        "revision": 944
+    },
+    {
+        "id": 199,
+        "kindId": "Shield",
+        "setKindId": "Counterattack",
+        "rank": "Three",
+        "rarity": "Common",
+        "level": 0,
+        "faction": "Unknown",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 4385,
+        "price": 57000,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Defense",
+            "absolute": true,
+            "value": 12.0
+        },
+        "secondaryBonuses": [],
+        "revision": 945
+    },
+    {
+        "id": 202,
+        "kindId": "Shield",
+        "setKindId": "Counterattack",
+        "rank": "Three",
+        "rarity": "Common",
+        "level": 0,
+        "faction": "Unknown",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 4385,
+        "price": 57000,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Defense",
+            "absolute": true,
+            "value": 12.0
+        },
+        "secondaryBonuses": [],
+        "revision": 946
+    },
+    {
+        "id": 203,
+        "kindId": "Shield",
+        "setKindId": "Counterattack",
+        "rank": "Two",
+        "rarity": "Common",
+        "level": 0,
+        "faction": "Unknown",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 2280,
+        "price": 22800,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Defense",
+            "absolute": true,
+            "value": 8.0
+        },
+        "secondaryBonuses": [],
+        "revision": 950
+    },
+    {
+        "id": 204,
+        "kindId": "Shield",
+        "setKindId": "Counterattack",
+        "rank": "Two",
+        "rarity": "Common",
+        "level": 0,
+        "faction": "Unknown",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 2280,
+        "price": 22800,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Defense",
+            "absolute": true,
+            "value": 8.0
+        },
+        "secondaryBonuses": [],
+        "revision": 951
+    },
+    {
+        "id": 208,
+        "kindId": "Shield",
+        "setKindId": "Counterattack",
+        "rank": "Two",
+        "rarity": "Common",
+        "level": 0,
+        "faction": "Unknown",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 2280,
+        "price": 22800,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Defense",
+            "absolute": true,
+            "value": 8.0
+        },
+        "secondaryBonuses": [],
+        "revision": 952
+    },
+    {
+        "id": 210,
+        "kindId": "Shield",
+        "setKindId": "Counterattack",
+        "rank": "Three",
+        "rarity": "Uncommon",
+        "level": 0,
+        "faction": "Unknown",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 5481,
+        "price": 71250,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Defense",
+            "absolute": true,
+            "value": 12.0
+        },
+        "secondaryBonuses": [
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "CriticalChance",
+                "absolute": false,
+                "value": 0.03
+            }
+        ],
+        "revision": 942
+    },
+    {
+        "id": 211,
+        "kindId": "Gloves",
+        "setKindId": "LifeDrain",
+        "rank": "Four",
+        "rarity": "Epic",
+        "level": 10,
+        "faction": "Unknown",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 9562,
+        "price": 153000,
+        "failedUpgrades": 6,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "CriticalChance",
+            "absolute": false,
+            "value": 0.23
+        },
+        "secondaryBonuses": [
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Speed",
+                "absolute": true,
+                "value": 4.0
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Attack",
+                "absolute": false,
+                "value": 0.04
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 2,
+                "kind": "Health",
+                "absolute": false,
+                "value": 0.1
+            }
+        ],
+        "revision": 894
+    },
+    {
+        "id": 212,
+        "kindId": "Ring",
+        "setKindId": "None",
+        "rank": "Three",
+        "rarity": "Epic",
+        "level": 0,
+        "faction": "Orcs",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 15231,
+        "price": 198000,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Defense",
+            "absolute": true,
+            "value": 12.0
+        },
+        "secondaryBonuses": [
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Defense",
+                "absolute": false,
+                "value": 0.03
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Health",
+                "absolute": false,
+                "value": 0.04
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Attack",
+                "absolute": true,
+                "value": 8.0
+            }
+        ],
+        "revision": 840
+    },
+    {
+        "id": 213,
+        "kindId": "Ring",
+        "setKindId": "None",
+        "rank": "Three",
+        "rarity": "Epic",
+        "level": 8,
+        "faction": "SacredOrder",
+        "seen": true,
+        "activated": true,
+        "sellPrice": 15231,
+        "price": 198000,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Health",
+            "absolute": true,
+            "value": 1023.0
+        },
+        "secondaryBonuses": [
+            {
+                "glyphPower": 0.0,
+                "level": 1,
+                "kind": "Defense",
+                "absolute": true,
+                "value": 21.0
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Defense",
+                "absolute": false,
+                "value": 0.03
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 1,
+                "kind": "Health",
+                "absolute": false,
+                "value": 0.05
+            }
+        ],
+        "revision": 850
+    },
+    {
+        "id": 214,
+        "kindId": "Ring",
+        "setKindId": "None",
+        "rank": "Three",
+        "rarity": "Epic",
+        "level": 0,
+        "faction": "DarkElves",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 15231,
+        "price": 198000,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Attack",
+            "absolute": true,
+            "value": 12.0
+        },
+        "secondaryBonuses": [
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Health",
+                "absolute": false,
+                "value": 0.02
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Defense",
+                "absolute": false,
+                "value": 0.04
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Attack",
+                "absolute": false,
+                "value": 0.02
+            }
+        ],
+        "revision": 838
+    },
+    {
+        "id": 215,
+        "kindId": "Ring",
+        "setKindId": "None",
+        "rank": "Three",
+        "rarity": "Epic",
+        "level": 0,
+        "faction": "HighElves",
+        "seen": true,
+        "activated": false,
+        "sellPrice": 15231,
+        "price": 198000,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Attack",
+            "absolute": true,
+            "value": 12.0
+        },
+        "secondaryBonuses": [
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Defense",
+                "absolute": true,
+                "value": 7.0
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Health",
+                "absolute": true,
+                "value": 74.0
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Attack",
+                "absolute": false,
+                "value": 0.03
+            }
+        ],
+        "revision": 839
+    },
+    {
+        "id": 216,
+        "kindId": "Gloves",
+        "setKindId": "GetExtraTurn",
+        "rank": "Three",
+        "rarity": "Epic",
+        "level": 0,
+        "faction": "Unknown",
         "seen": false,
         "activated": false,
-        "sellPrice": 2052,
-        "price": 20520,
+        "sellPrice": 11769,
+        "price": 153000,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Defense",
+            "absolute": false,
+            "value": 0.04
+        },
+        "secondaryBonuses": [
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Resistance",
+                "absolute": true,
+                "value": 5.0
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Health",
+                "absolute": false,
+                "value": 0.04
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Attack",
+                "absolute": true,
+                "value": 7.0
+            }
+        ],
+        "revision": 958
+    },
+    {
+        "id": 217,
+        "kindId": "Boots",
+        "setKindId": "GetExtraTurn",
+        "rank": "Three",
+        "rarity": "Epic",
+        "level": 0,
+        "faction": "Unknown",
+        "seen": false,
+        "activated": false,
+        "sellPrice": 12462,
+        "price": 162000,
         "failedUpgrades": 0,
         "primaryBonus": {
             "glyphPower": 0.0,
             "level": 0,
             "kind": "Health",
             "absolute": false,
-            "value": 0.02
+            "value": 0.04
         },
-        "secondaryBonuses": [],
-        "revision": 731
+        "secondaryBonuses": [
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "CriticalChance",
+                "absolute": false,
+                "value": 0.03
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Speed",
+                "absolute": true,
+                "value": 3.0
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Accuracy",
+                "absolute": true,
+                "value": 7.0
+            }
+        ],
+        "revision": 959
+    },
+    {
+        "id": 218,
+        "kindId": "Chest",
+        "setKindId": "GetExtraTurn",
+        "rank": "Three",
+        "rarity": "Epic",
+        "level": 0,
+        "faction": "Unknown",
+        "seen": false,
+        "activated": false,
+        "sellPrice": 11077,
+        "price": 144000,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Defense",
+            "absolute": false,
+            "value": 0.04
+        },
+        "secondaryBonuses": [
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Health",
+                "absolute": false,
+                "value": 0.03
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "CriticalChance",
+                "absolute": false,
+                "value": 0.02
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Accuracy",
+                "absolute": true,
+                "value": 6.0
+            }
+        ],
+        "revision": 960
+    },
+    {
+        "id": 219,
+        "kindId": "Weapon",
+        "setKindId": "GetExtraTurn",
+        "rank": "Three",
+        "rarity": "Epic",
+        "level": 0,
+        "faction": "Unknown",
+        "seen": false,
+        "activated": false,
+        "sellPrice": 13154,
+        "price": 171000,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Attack",
+            "absolute": true,
+            "value": 12.0
+        },
+        "secondaryBonuses": [
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Health",
+                "absolute": true,
+                "value": 115.0
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "CriticalDamage",
+                "absolute": false,
+                "value": 0.04
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Speed",
+                "absolute": true,
+                "value": 2.0
+            }
+        ],
+        "revision": 961
+    },
+    {
+        "id": 220,
+        "kindId": "Shield",
+        "setKindId": "GetExtraTurn",
+        "rank": "Three",
+        "rarity": "Epic",
+        "level": 0,
+        "faction": "Unknown",
+        "seen": false,
+        "activated": false,
+        "sellPrice": 13846,
+        "price": 180000,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Defense",
+            "absolute": true,
+            "value": 12.0
+        },
+        "secondaryBonuses": [
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Health",
+                "absolute": false,
+                "value": 0.03
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "CriticalChance",
+                "absolute": false,
+                "value": 0.02
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Speed",
+                "absolute": true,
+                "value": 2.0
+            }
+        ],
+        "revision": 962
+    },
+    {
+        "id": 221,
+        "kindId": "Helmet",
+        "setKindId": "GetExtraTurn",
+        "rank": "Three",
+        "rarity": "Epic",
+        "level": 0,
+        "faction": "Unknown",
+        "seen": false,
+        "activated": false,
+        "sellPrice": 10385,
+        "price": 135000,
+        "failedUpgrades": 0,
+        "primaryBonus": {
+            "glyphPower": 0.0,
+            "level": 0,
+            "kind": "Health",
+            "absolute": true,
+            "value": 170.0
+        },
+        "secondaryBonuses": [
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Resistance",
+                "absolute": true,
+                "value": 7.0
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Defense",
+                "absolute": true,
+                "value": 8.0
+            },
+            {
+                "glyphPower": 0.0,
+                "level": 0,
+                "kind": "Speed",
+                "absolute": true,
+                "value": 3.0
+            }
+        ],
+        "revision": 963
     }
 ]
