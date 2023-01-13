@@ -1,7 +1,7 @@
 import asyncio
 
 import click
-from rich import print
+import rich
 
 from src.model.account import Accounts
 from src.service.rtk_web_api import RTKWebApi
@@ -29,4 +29,4 @@ async def async_get_all(ctx):
         all_accounts = await web_api.client.AccountApi.get_accounts()
         # Parse the data
         all_accounts = Accounts.parse_obj(all_accounts)
-        print(all_accounts)
+        rich.print_json(all_accounts.json())
