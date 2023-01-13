@@ -65,6 +65,7 @@ class UserAvatarId(str, Enum):
     Hero5940 = 5940
     Hero6250 = 6250
     Hero6340 = 6340
+    Hero7500 = 7500
     Hero21080 = 21080
     PlatinumLeagueSet1_1 = 1000000
     PlatinumLeagueSet1_2 = 1000001
