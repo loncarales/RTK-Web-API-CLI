@@ -33,7 +33,7 @@ def artifacts() -> None:
     "-r",
     required=False,
     multiple=True,
-    type=str,
+    type=int,
     help="Filter by the artifact rank",
 )
 @click.option(
@@ -217,11 +217,11 @@ def stats_output(stat: str, is_flat: bool) -> str:
 
 def rank_to_str(ranks: tuple) -> tuple:
     rank_mapping = {
-        "1": "One",
-        "2": "Two",
-        "3": "Three",
-        "4": "Four",
-        "5": "Five",
-        "6": "Six"
+        1: "One",
+        2: "Two",
+        3: "Three",
+        4: "Four",
+        5: "Five",
+        6: "Six"
     }
     return tuple(rank_mapping.get(rank, "") for rank in ranks)

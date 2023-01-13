@@ -99,7 +99,7 @@ Usage: raidctl.py artifacts get-all [OPTIONS]
 
 Options:
   -l, --level INTEGER        Filter by the artifact level
-  -r, --rank TEXT            Filter by the artifact rank
+  -r, --rank INTEGER         Filter by the artifact rank
   -ra, --rarity TEXT         Filter by the artifact rarity
   -as, --artifact-set TEXT   Filter by the artifact set
   -at, --artifact-type TEXT  Filter by the artifact type
