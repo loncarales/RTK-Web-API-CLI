@@ -1,0 +1,2 @@
+[application]
+  mock_websocket_api = true
