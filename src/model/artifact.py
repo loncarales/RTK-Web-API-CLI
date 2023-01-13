@@ -36,7 +36,7 @@ class ArtifactDto(BaseModel):
     rank: str
     rarity: str
     primary_stat: str
-    substats: dict[str, str]
+    substats: str
 
 
 class ArtifactsDto(BaseModel):
@@ -80,9 +80,8 @@ def convert_to_primary_stat(primary_bonus: ArtifactBonus) -> str:
     return primary_stat_value
 
 
-def convert_to_substats(secondary_bonuses: list[ArtifactBonus]) -> dict:
+def convert_to_substats(secondary_bonuses: list[ArtifactBonus]) -> str:
     substats = {}
-
     for bonus in secondary_bonuses:
         bonus_kind = bonus.kind
         if bonus.level > 0:
@@ -95,4 +94,7 @@ def convert_to_substats(secondary_bonuses: list[ArtifactBonus]) -> dict:
             if not bonus.absolute:
                 substat = f'{bonus.value * 100:.0f}%+{bonus.glyph_power * 100:.0f}%'
         substats[bonus_kind] = substat
-    return substats
+    elements = []
+    for key, value in substats.items():
+        elements.append(f'{key}: {value}')
+    return " / ".join(elements)
