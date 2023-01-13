@@ -1,0 +1,50 @@
+[
+  {
+    "key": "Health",
+    "ordinal": 0,
+    "label": "HP",
+    "enhanceable": true
+  },
+  {
+    "key": "Attack",
+    "ordinal": 1,
+    "label": "ATK",
+    "enhanceable": true
+  },
+  {
+    "key": "Defense",
+    "ordinal": 2,
+    "label": "DEF",
+    "enhanceable": true
+  },
+  {
+    "key": "Speed",
+    "ordinal": 3,
+    "label": "SPD",
+    "enhanceable": true
+  },
+  {
+    "key": "CriticalChance",
+    "ordinal": 4,
+    "label": "C. RATE",
+    "enhanceable": false
+  },
+  {
+    "key": "CriticalDamage",
+    "ordinal": 5,
+    "label": "C. DMG",
+    "enhanceable": false
+  },
+  {
+    "key": "Resistance",
+    "ordinal": 6,
+    "label": "RES",
+    "enhanceable": true
+  },
+  {
+    "key": "Accuracy",
+    "ordinal": 7,
+    "label": "ACC",
+    "enhanceable": true
+  }
+]

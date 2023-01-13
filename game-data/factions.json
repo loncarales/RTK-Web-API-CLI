@@ -1,0 +1,77 @@
+[
+    {
+        "key": "BannerLords",
+        "ordinal": 0,
+        "label": "Banner Lords"
+    },
+    {
+        "key": "HighElves",
+        "ordinal": 1,
+        "label": "High Elves"
+    },
+    {
+        "key": "SacredOrder",
+        "ordinal": 2,
+        "label": "The Sacred Order"
+    },
+    {
+        "key": "Barbarians",
+        "ordinal": 3,
+        "label": "Barbarians"
+    },
+    {
+        "key": "OgrynTribes",
+        "ordinal": 4,
+        "label": "Ogryn Tribes"
+    },
+    {
+        "key": "LizardMen",
+        "ordinal": 5,
+        "label": "Lizardmen"
+    },
+    {
+        "key": "Skinwalkers",
+        "ordinal": 6,
+        "label": "Skinwalkers"
+    },
+    {
+        "key": "Orcs",
+        "ordinal": 7,
+        "label": "Orcs"
+    },
+    {
+        "key": "Demonspawn",
+        "ordinal": 8,
+        "label": "Demonspawn"
+    },
+    {
+        "key": "UndeadHordes",
+        "ordinal": 9,
+        "label": "Undead Hordes"
+    },
+    {
+        "key": "DarkElves",
+        "ordinal": 10,
+        "label": "Dark Elves"
+    },
+    {
+        "key": "KnightsRevenant",
+        "ordinal": 11,
+        "label": "Knight Revenant"
+    },
+    {
+        "key": "Dwarves",
+        "ordinal": 12,
+        "label": "Dwarves"
+    },
+    {
+        "key": "Samurai",
+        "ordinal": 13,
+        "label": "Shadowkin"
+    },
+    {
+        "key": "SylvanWatchers",
+        "ordinal": 14,
+        "label": "Sylvan Watchers"
+    }
+]

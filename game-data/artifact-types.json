@@ -1,0 +1,71 @@
+[
+  {
+    "key": "Weapon",
+    "ordinal": 0,
+    "label": "Weapon",
+    "plural": "Weapons",
+    "isAccessory": false
+  },
+  {
+    "key": "Helmet",
+    "ordinal": 1,
+    "label": "Helmet",
+    "plural": "Helmets",
+    "isAccessory": false
+  },
+  {
+    "key": "Shield",
+    "ordinal": 2,
+    "label": "Shield",
+    "plural": "Shields",
+    "isAccessory": false
+  },
+  {
+    "key": "Gloves",
+    "ordinal": 3,
+    "label": "Gauntlets",
+    "plural": "Gauntlets",
+    "isAccessory": false
+  },
+  {
+    "key": "Chest",
+    "ordinal": 4,
+    "label": "Chestplate",
+    "plural": "Chestplates",
+    "isAccessory": false
+  },
+  {
+    "key": "Boots",
+    "ordinal": 5,
+    "label": "Boots",
+    "plural": "Boots",
+    "isAccessory": false
+  },
+  {
+    "key": "Ring",
+    "ordinal": 6,
+    "label": "Ring",
+    "plural": "Rings",
+    "isAccessory": true,
+    "minRank": 4,
+    "ascensionLevel": 0
+  },
+  {
+    "key": "Cloak",
+    "ordinal": 7,
+    "label": "Amulet",
+    "plural": "Amulets",
+    "isAccessory": true,
+    "minRank": 5,
+    "ascensionLevel": 5
+  },
+  {
+    "key": "Banner",
+    "ordinal": 8,
+    "label": "Banner",
+    "plural": "Banners",
+    "isAccessory": true,
+    "minRank": 6,
+    "ascensionLevel": 6
+  }
+]
