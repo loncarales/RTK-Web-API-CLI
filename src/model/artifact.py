@@ -29,6 +29,7 @@ class Artifacts(BaseModel):
 
 class ArtifactDto(BaseModel):
     id: int
+    faction: str
     set: str
     type: str
     level: int
@@ -45,6 +46,7 @@ class ArtifactsDto(BaseModel):
 def convert_to_artifact_dto(artifact: Artifact) -> ArtifactDto:
     return ArtifactDto(
         id=artifact.id,
+        faction=artifact.faction,
         set=artifact.set_kind_id,
         type=artifact.kind_id,
         level=artifact.level,

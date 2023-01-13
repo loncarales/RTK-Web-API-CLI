@@ -37,6 +37,14 @@ def artifacts() -> None:
     help="Filter by the artifact rank",
 )
 @click.option(
+    "--faction",
+    "-fa",
+    required=False,
+    multiple=True,
+    type=str,
+    help="Filter by the faction",
+)
+@click.option(
     "--rarity",
     "-ra",
     required=False,
@@ -84,14 +92,14 @@ def artifacts() -> None:
     type=str,
     help="Sort artifacts by any stat",
 )
-def get_all(ctx, level, rank, rarity, artifact_set, artifact_type, primary_stat, substat, sort) -> None:
+def get_all(ctx, level, rank, faction, rarity, artifact_set, artifact_type, primary_stat, substat, sort) -> None:
     """
     Get all Artifacts based on input options
     """
-    asyncio.run(async_get_all(ctx, level, rank, rarity, artifact_set, artifact_type, primary_stat, substat, sort))
+    asyncio.run(async_get_all(ctx, level, rank, faction, rarity, artifact_set, artifact_type, primary_stat, substat, sort))
 
 
-async def async_get_all(ctx, level, rank, rarity, artifact_set, artifact_type, primary_stat, substat, sort):
+async def async_get_all(ctx, level, rank, faction, rarity, artifact_set, artifact_type, primary_stat, substat, sort):
     with RTKWebApi(ctx.obj["MOCK_WEBSOCKET_API"]) as web_api:
         all_accounts = await web_api.client.AccountApi.get_accounts()
         all_artifacts = await web_api.client.AccountApi.get_artifacts(all_accounts[0]["id"])
@@ -109,6 +117,9 @@ async def async_get_all(ctx, level, rank, rarity, artifact_set, artifact_type, p
             # Replace the kind value
             data["kindId"] = artifact_types.get(data["kindId"]).label if data["kindId"] in artifact_types else data[
                 "kindId"]
+            # Replace the faction value
+            data["faction"] = factions.get(data["faction"]).label if data["faction"] in factions else ""
+
             # Replace the primaryBonus.kind value
             data["primaryBonus"]["kind"] = artifact_stats.get(data['primaryBonus']['kind']).label if \
                 data['primaryBonus']['kind'] in artifact_stats else data['primaryBonus']['kind']
@@ -144,6 +155,10 @@ async def async_get_all(ctx, level, rank, rarity, artifact_set, artifact_type, p
             if len(rank) != 0 and data["rank"] in rank_to_str(rank):
                 rank_filter = True
 
+            rank_faction = True if len(faction) == 0 else False
+            if len(faction) != 0 and data["faction"] in faction:
+                rank_faction = True
+
             # search all artifacts with the rarity
             rarity_filter = True if len(rarity) == 0 else False
             if len(rarity) != 0 and data["rarity"] in rarity:
@@ -160,7 +175,7 @@ async def async_get_all(ctx, level, rank, rarity, artifact_set, artifact_type, p
                 type_filter = True
 
             # Add artifact to search ones
-            if level_filter and rank_filter and rarity_filter and set_filter and type_filter:
+            if level_filter and rank_filter and rank_faction and rarity_filter and set_filter and type_filter:
                 searched_artifacts.append(data)
 
         # search all artifacts with the primary stats
