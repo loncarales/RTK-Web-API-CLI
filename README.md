@@ -39,7 +39,7 @@ exported from the game.
 
 ```toml
 [application]
-  mock_websocket_api = true
+  mock_websocket_api = false
 ```
 
 ### Before running the application
@@ -55,10 +55,10 @@ using the `poetry shell` command. To deactivate a virtual environment and exist 
 
 ### Running the application
 
-Running just a script `./raidctl.py` will dump a help message
+Running just a script with `python ./raidctl.py` will dump a help message
 
 ```bash
-./raidctl.py 
+python ./raidctl.py 
 
 Usage: raidctl.py [OPTIONS] COMMAND [ARGS]...
 
@@ -85,9 +85,18 @@ Let's search for artifacts:
 and sort them by ACC Desc
 
 ```bash
-./raidctl.py artifacts get-all -at Boots -r 4 -r 5 -ra Legendary -ra Epic -ps SPD -su ACC --sort ACC
+python ./raidctl.py artifacts get-all -at Boots -r 4 -r 5 -ra Legendary -ra Epic -ps SPD -su ACC --sort ACC
 
-
+accessing RTK via client
++---+------+---------------+-------+-------+------+-----------+--------------+----------------------------------------------------------------------+
+|   | id   | set           | type  | level | rank | rarity    | primary_stat | substats                                                             |
++---+------+---------------+-------+-------+------+-----------+--------------+----------------------------------------------------------------------+
+| 0 | 5161 | Perception    | Boots | 16    | 5    | Epic      | SPD 40       | {'ATK(1)': '10%+1%', 'ACC(1)': '22+2', 'DEF': '15+5'}                |
+| 1 | 7635 | Lifesteal     | Boots | 0     | 5    | Epic      | SPD 5        | {'RES': '11', 'ACC': '11', 'C. DMG': '5%'}                           |
+| 2 | 1605 | Perception    | Boots | 16    | 4    | Epic      | SPD 35       | {'RES(2)': '23+2', 'C. RATE(1)': '9%', 'ACC': '7+2', 'C. DMG': '4%'} |
+| 3 | 5604 | Critical Rate | Boots | 0     | 5    | Epic      | SPD 5        | {'HP': '397', 'ACC': '8', 'DEF': '16'}                               |
+| 4 | 6479 | Perception    | Boots | 0     | 4    | Legendary | SPD 4        | {'ACC': '8', 'DEF': '13', 'ATK': '7', 'RES': '7'}                    |
++---+------+---------------+-------+-------+------+-----------+--------------+----------------------------------------------------------------------+
 ```
 
 You can see all input options if you add `--help` to the command line
