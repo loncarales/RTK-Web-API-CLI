@@ -1,2 +1,2 @@
 [application]
-  mock_websocket_api = true
+  mock_websocket_api = false
