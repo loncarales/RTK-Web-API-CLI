@@ -37,6 +37,18 @@ async def main():
     with open("champions-static.json", "w") as outfile:
         outfile.write(json_champions_static)
 
+    skills = await client.StaticDataApi.get_skill_data()
+    # Serializing json
+    json_skills = json.dumps(skills, indent=4)
+    with open("skills-static.json", "w") as outfile:
+        outfile.write(json_skills)
+
+    localized_strings = await client.StaticDataApi.get_localized_strings()
+    # Serializing json
+    json_localisation = json.dumps(localized_strings, indent=4)
+    with open("locales-static.json", "w") as outfile:
+        outfile.write(json_localisation)
+
     # Real Time API
     last_battle = await client.RealtimeApi.get_last_battle_response()
     # Serializing json
