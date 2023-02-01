@@ -10,7 +10,12 @@ async def main():
     client.connect()
     accounts = await client.AccountApi.get_accounts()
 
-    # Account Data
+    # Account Dump
+    account = await client.AccountApi.get_account_dump(accounts[0]["id"])
+    # Serializing json
+    json_account = json.dumps(account, indent=4)
+    with open("account_dump.json", "w") as outfile:
+        outfile.write(json_account)
 
     artifacts = await client.AccountApi.get_artifacts(accounts[0]["id"])
     # Serializing json
@@ -48,13 +53,6 @@ async def main():
     json_localisation = json.dumps(localized_strings, indent=4)
     with open("locales-static.json", "w") as outfile:
         outfile.write(json_localisation)
-
-    # Real Time API
-    last_battle = await client.RealtimeApi.get_last_battle_response()
-    # Serializing json
-    json_last_battle = json.dumps(last_battle, indent=4)
-    with open("last-battle.json", "w") as outfile:
-        outfile.write(json_last_battle)
 
     client.close()
 
