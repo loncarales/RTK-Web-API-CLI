@@ -9,4 +9,6 @@ class AccountApi:
         return self.client.call("json-data", "accounts.json", "")
 
     def get_artifacts(self, account_id: str):
-        return self.client.call("json-data", "artifacts.json", "", [account_id])
+        return self.client.call(
+            "json-data", "artifacts.json", "", [account_id]
+        )

@@ -7,7 +7,7 @@ from tabulate import tabulate
 
 from src.model.artifact import Artifacts, convert_to_artifacts_dto
 from src.service.rtk_web_api import RTKWebApi
-from src.utils import load_game_data
+from src.utils import load_static_data
 
 
 @click.group()
@@ -92,55 +92,125 @@ def artifacts() -> None:
     type=str,
     help="Sort artifacts by any stat",
 )
-def get_all(ctx, level, rank, faction, rarity, artifact_set, artifact_type, primary_stat, substat, sort) -> None:
+def get_all(
+    ctx,
+    level,
+    rank,
+    faction,
+    rarity,
+    artifact_set,
+    artifact_type,
+    primary_stat,
+    substat,
+    sort,
+) -> None:
     """
     Get all Artifacts based on input options
     """
-    asyncio.run(async_get_all(ctx, level, rank, faction, rarity, artifact_set, artifact_type, primary_stat, substat, sort))
+    asyncio.run(
+        async_get_all(
+            ctx,
+            level,
+            rank,
+            faction,
+            rarity,
+            artifact_set,
+            artifact_type,
+            primary_stat,
+            substat,
+            sort,
+        )
+    )
 
 
-async def async_get_all(ctx, level, rank, faction, rarity, artifact_set, artifact_type, primary_stat, substat, sort):
+async def async_get_all(
+    ctx,
+    level,
+    rank,
+    faction,
+    rarity,
+    artifact_set,
+    artifact_type,
+    primary_stat,
+    substat,
+    sort,
+):
     with RTKWebApi(ctx.obj["MOCK_WEBSOCKET_API"]) as web_api:
         all_accounts = await web_api.client.AccountApi.get_accounts()
-        all_artifacts = await web_api.client.AccountApi.get_artifacts(all_accounts[0]["id"])
-        game_data = load_game_data()
-        artifact_sets = game_data.artifactSets
-        artifact_types = game_data.artifactTypes
-        factions = game_data.factions
-        artifact_stats = game_data.artifactStats
+        all_artifacts = await web_api.client.AccountApi.get_artifacts(
+            all_accounts[0]["id"]
+        )
+        # TODO This should be load through web API
+        static_data = load_static_data()
+        artifact_sets = static_data["artifact_sets"]
+        l10n = static_data["l10n"]
         # Iterate through the objects in the JSON file
         searched_artifacts = list()
         for data in all_artifacts:
-            # Replace the setKind value
-            data["setKindId"] = artifact_sets.get(data["setKindId"]).label if data["setKindId"] in artifact_sets else data[
-                "setKindId"]
+            # Replace the setKind key with a name
+            data["setKindId"] = (
+                artifact_sets[data["setKindId"]]["name"]
+                if data["setKindId"] in artifact_sets
+                else ""
+            )
             # Replace the kind value
-            data["kindId"] = artifact_types.get(data["kindId"]).label if data["kindId"] in artifact_types else data[
-                "kindId"]
+            kind_id = data["kindId"]
+            data["kindId"] = (
+                l10n[f"l10n:artifact/kindid?id={kind_id}#label"]
+                if f"l10n:artifact/kindid?id={kind_id}#label" in l10n
+                else data["kindId"]
+            )
+            # Replace the {0} substring
+            data["kindId"] = data["kindId"].replace("{0}", "")
             # Replace the faction value
-            data["faction"] = factions.get(data["faction"]).label if data["faction"] in factions else ""
-
+            faction_id = data["faction"]
+            data["faction"] = (
+                l10n[f"l10n:artifact/fractionId?id={faction_id}#label"]
+                if f"l10n:artifact/fractionId?id={faction_id}#label" in l10n
+                else ""
+            )
             # Replace the primaryBonus.kind value
-            data["primaryBonus"]["kind"] = artifact_stats.get(data['primaryBonus']['kind']).label if \
-                data['primaryBonus']['kind'] in artifact_stats else data['primaryBonus']['kind']
-
+            stat_kind_id = data["primaryBonus"]["kind"]
+            # Bug Replace Defense with Defence
+            stat_kind_id = stat_kind_id.replace("Defense", "Defence")
+            data["primaryBonus"]["kind"] = (
+                l10n[
+                    f"l10n:artifact/drop-info-tooltip/stat-short?id={stat_kind_id}#label"
+                ]
+                if f"l10n:artifact/drop-info-tooltip/stat-short?id={stat_kind_id}#label"
+                in l10n
+                else data["primaryBonus"]["kind"]
+            )
             # add artifactStats key to the object
             data["allStats"] = {}
             primary_bonus = data["primaryBonus"]
             primary_value = primary_bonus["value"]
             if not primary_bonus["absolute"]:
                 primary_value = primary_value * 100
-            data["allStats"][stats_output(primary_bonus["kind"], primary_bonus["absolute"])] = primary_value
+            data["allStats"][
+                stats_output(primary_bonus["kind"], primary_bonus["absolute"])
+            ] = primary_value
 
             # Iterate through the secondaryBonuses list
             for bonus in data["secondaryBonuses"]:
+                bonus_kind_id = bonus["kind"]
+                # Bug Replace Defense with Defence
+                bonus_kind_id = bonus_kind_id.replace("Defense", "Defence")
                 # Replace the kind value
-                bonus["kind"] = artifact_stats.get(bonus['kind']).label if bonus['kind'] in artifact_stats else bonus[
-                    'kind']
+                bonus["kind"] = (
+                    l10n[
+                        f"l10n:artifact/drop-info-tooltip/stat-short?id={bonus_kind_id}#label"
+                    ]
+                    if f"l10n:artifact/drop-info-tooltip/stat-short?id={bonus_kind_id}#label"
+                    in l10n
+                    else bonus["kind"]
+                )
                 bonus_value = bonus["value"] + bonus["glyphPower"]
                 if not bonus["absolute"]:
                     bonus_value = bonus_value * 100
-                data["allStats"][stats_output(bonus["kind"], bonus["absolute"])] = bonus_value
+                data["allStats"][
+                    stats_output(bonus["kind"], bonus["absolute"])
+                ] = bonus_value
 
             # # Filter data
             # # set flag to know if we hit the mark
@@ -175,27 +245,55 @@ async def async_get_all(ctx, level, rank, faction, rarity, artifact_set, artifac
                 type_filter = True
 
             # Add artifact to search ones
-            if level_filter and rank_filter and rank_faction and rarity_filter and set_filter and type_filter:
+            if (
+                level_filter
+                and rank_filter
+                and rank_faction
+                and rarity_filter
+                and set_filter
+                and type_filter
+            ):
                 searched_artifacts.append(data)
 
         # search all artifacts with the primary stats
         if len(primary_stat) != 0:
             primary_stats_filter = convert_to_stat_filter(primary_stat)
-            searched_artifacts = [item for item in searched_artifacts if (item['primaryBonus']['kind'], item['primaryBonus']['absolute']) in primary_stats_filter]
+            searched_artifacts = [
+                item
+                for item in searched_artifacts
+                if (
+                    item["primaryBonus"]["kind"],
+                    item["primaryBonus"]["absolute"],
+                )
+                in primary_stats_filter
+            ]
 
         # search all artifacts with the substats
         if len(substat) != 0:
             substats_filter = convert_to_stat_filter(substat)
-            searched_artifacts = [item for item in searched_artifacts if substats_filter.issubset(
-                {(bonus['kind'], bonus['absolute']) for bonus in item['secondaryBonuses']}
-            )]
+            searched_artifacts = [
+                item
+                for item in searched_artifacts
+                if substats_filter.issubset(
+                    {
+                        (bonus["kind"], bonus["absolute"])
+                        for bonus in item["secondaryBonuses"]
+                    }
+                )
+            ]
 
             # Sort the data Ascending by the 'sort' keys in the "allStats" dictionary
         if len(sort) != 0:
-            searched_artifacts = sorted(searched_artifacts, key=lambda x: tuple(x["allStats"].get(key, 0) for key in sort), reverse=True)
+            searched_artifacts = sorted(
+                searched_artifacts,
+                key=lambda x: tuple(x["allStats"].get(key, 0) for key in sort),
+                reverse=True,
+            )
 
         if len(searched_artifacts) == 0:
-            Console().print("No artifacts found with search criteria", style="bold red")
+            Console().print(
+                "No artifacts found with search criteria", style="bold red"
+            )
             exit()
 
         model = Artifacts.parse_obj(searched_artifacts)
@@ -209,7 +307,6 @@ async def async_get_all(ctx, level, rank, faction, rarity, artifact_set, artifac
                 stralign="left",
             )
         )
-
 
 
 def convert_to_stat_filter(stats: tuple) -> set:
@@ -237,6 +334,6 @@ def rank_to_str(ranks: tuple) -> tuple:
         3: "Three",
         4: "Four",
         5: "Five",
-        6: "Six"
+        6: "Six",
     }
     return tuple(rank_mapping.get(rank, "") for rank in ranks)

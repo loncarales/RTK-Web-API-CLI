@@ -4,6 +4,7 @@ import tomli
 
 from src.account.accounts import accounts
 from src.artifact.artifacts import artifacts
+from src.game.game import game
 
 
 @click.group("cli")
@@ -22,6 +23,7 @@ def cli(ctx):
     pass
 
 
+cli.add_command(game)
 cli.add_command(accounts)
 cli.add_command(artifacts)
 

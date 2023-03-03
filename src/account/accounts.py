@@ -25,7 +25,7 @@ def get_all(ctx) -> None:
 
 
 async def async_get_all(ctx):
-    with RTKWebApi(ctx.obj['MOCK_WEBSOCKET_API']) as web_api:
+    with RTKWebApi(ctx.obj["MOCK_WEBSOCKET_API"]) as web_api:
         all_accounts = await web_api.client.AccountApi.get_accounts()
         # Parse the data
         all_accounts = Accounts.parse_obj(all_accounts)

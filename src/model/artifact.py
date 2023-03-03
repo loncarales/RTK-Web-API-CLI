@@ -7,20 +7,22 @@ from src.model.artifact_bonus import ArtifactBonus
 
 class Artifact(BaseModel):
     id: int
-    sell_price: int = Field(..., alias='sellPrice')
+    sell_price: int = Field(..., alias="sellPrice")
     price: int
     level: int
     activated: bool
-    kind_id: str = Field(..., alias='kindId')
+    kind_id: str = Field(..., alias="kindId")
     rank: str
     rarity: str
-    set_kind_id: str = Field(..., alias='setKindId')
+    set_kind_id: str = Field(..., alias="setKindId")
     seen: bool
-    failed_upgrades: int = Field(..., alias='failedUpgrades')
-    primary_bonus: ArtifactBonus = Field(..., alias='primaryBonus')
-    secondary_bonuses: list[ArtifactBonus] = Field(..., alias='secondaryBonuses')
+    failed_upgrades: int = Field(..., alias="failedUpgrades")
+    primary_bonus: ArtifactBonus = Field(..., alias="primaryBonus")
+    secondary_bonuses: list[ArtifactBonus] = Field(
+        ..., alias="secondaryBonuses"
+    )
     faction: str
-    all_stats: dict[str, float] = Field(..., alias='allStats')
+    all_stats: dict[str, float] = Field(..., alias="allStats")
 
 
 class Artifacts(BaseModel):
@@ -53,12 +55,14 @@ def convert_to_artifact_dto(artifact: Artifact) -> ArtifactDto:
         rank=convert_to_rank(artifact.rank),
         rarity=artifact.rarity,
         primary_stat=convert_to_primary_stat(artifact.primary_bonus),
-        substats=convert_to_substats(artifact.secondary_bonuses)
+        substats=convert_to_substats(artifact.secondary_bonuses),
     )
 
 
 def convert_to_artifacts_dto(artifact_list: Artifacts) -> ArtifactsDto:
-    return ArtifactsDto(__root__=[convert_to_artifact_dto(a) for a in artifact_list.__root__])
+    return ArtifactsDto(
+        __root__=[convert_to_artifact_dto(a) for a in artifact_list.__root__]
+    )
 
 
 def convert_to_rank(rank: str) -> str:
@@ -68,15 +72,17 @@ def convert_to_rank(rank: str) -> str:
         "Three": "***",
         "Four": "****",
         "Five": "*****",
-        "Six": "******"
+        "Six": "******",
     }
     return rank_mapping.get(rank, "")
 
 
 def convert_to_primary_stat(primary_bonus: ArtifactBonus) -> str:
-    primary_stat_value = f'{primary_bonus.kind} {primary_bonus.value:.0f}'
+    primary_stat_value = f"{primary_bonus.kind} {primary_bonus.value:.0f}"
     if not primary_bonus.absolute:
-        primary_stat_value = f'{primary_bonus.kind} {primary_bonus.value * 100:.0f}%'
+        primary_stat_value = (
+            f"{primary_bonus.kind} {primary_bonus.value * 100:.0f}%"
+        )
     return primary_stat_value
 
 
@@ -85,16 +91,18 @@ def convert_to_substats(secondary_bonuses: list[ArtifactBonus]) -> str:
     for bonus in secondary_bonuses:
         bonus_kind = bonus.kind
         if bonus.level > 0:
-            bonus_kind = f'{bonus.kind}({bonus.level})'
+            bonus_kind = f"{bonus.kind}({bonus.level})"
         substat = round(bonus.value)
         if not bonus.absolute:
-            substat = f'{bonus.value * 100:.0f}%'
+            substat = f"{bonus.value * 100:.0f}%"
         if bonus.glyph_power != 0:
-            substat = f'{bonus.value:.0f}+{bonus.glyph_power:.0f}'
+            substat = f"{bonus.value:.0f}+{bonus.glyph_power:.0f}"
             if not bonus.absolute:
-                substat = f'{bonus.value * 100:.0f}%+{bonus.glyph_power * 100:.0f}%'
+                substat = (
+                    f"{bonus.value * 100:.0f}%+{bonus.glyph_power * 100:.0f}%"
+                )
         substats[bonus_kind] = substat
     elements = []
     for key, value in substats.items():
-        elements.append(f'{key}: {value}')
+        elements.append(f"{key}: {value}")
     return " / ".join(elements)

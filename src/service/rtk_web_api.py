@@ -1,5 +1,5 @@
-from rich.console import Console
 from raidtoolkit import RaidToolkitClient
+from rich.console import Console
 
 from src.mockraidtoolkit.mock_raid_toolkit import MockRaidToolkitClient
 

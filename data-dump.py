@@ -33,25 +33,25 @@ async def main():
     artifacts_static = await client.StaticDataApi.get_artifact_data()
     # Serializing json
     json_artifacts_static = json.dumps(artifacts_static, indent=4)
-    with open("artifacts-static.json", "w") as outfile:
+    with open("artifact-sets-index.json", "w") as outfile:
         outfile.write(json_artifacts_static)
 
     champions_static = await client.StaticDataApi.get_hero_data()
     # Serializing json
     json_champions_static = json.dumps(champions_static, indent=4)
-    with open("champions-static.json", "w") as outfile:
+    with open("heroes-index.json", "w") as outfile:
         outfile.write(json_champions_static)
 
     skills = await client.StaticDataApi.get_skill_data()
     # Serializing json
     json_skills = json.dumps(skills, indent=4)
-    with open("skills-static.json", "w") as outfile:
+    with open("skills-index.json", "w") as outfile:
         outfile.write(json_skills)
 
     localized_strings = await client.StaticDataApi.get_localized_strings()
     # Serializing json
     json_localisation = json.dumps(localized_strings, indent=4)
-    with open("locales-static.json", "w") as outfile:
+    with open("l10n-en.json", "w") as outfile:
         outfile.write(json_localisation)
 
     client.close()

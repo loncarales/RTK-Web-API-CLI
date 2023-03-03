@@ -7,13 +7,13 @@ from src.model.user_avatar_id import UserAvatarId
 
 class AccountInfo(BaseModel):
     id: str
-    last_updated: str = Field(..., alias='lastUpdated')
+    last_updated: str = Field(..., alias="lastUpdated")
     avatar: str
-    avatar_id: UserAvatarId = Field(..., alias='avatarId')
+    avatar_id: UserAvatarId = Field(..., alias="avatarId")
     name: str
     level: int
     power: int
-    avatar_url: str = Field(..., alias='avatarUrl')
+    avatar_url: str = Field(..., alias="avatarUrl")
 
     class Config:
         use_enum_values = True
